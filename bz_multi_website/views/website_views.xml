@@ -1,0 +1,113 @@
+<odoo>
+
+    <!-- Website menu -->
+    <record id="bz_website_menu_action" model="ir.actions.act_window">
+        <field name="name">Websites</field>
+        <field name="res_model">website</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="target">current</field>
+    </record>
+    <menuitem id="bz_website_menu"
+        name="Websites"
+        parent="website.menu_website_configuration"
+        action="bz_website_menu_action"/>
+
+    <!-- Website pages action -->
+    <record id="website_pages_action" model="ir.actions.act_window">
+        <field name="name">Pages</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">website.page</field>
+        <field name="domain">[('website_ids','in',active_id)]</field>
+    </record>
+
+    <!-- Website menus action -->
+    <record id="website_menus_action" model="ir.actions.act_window">
+        <field name="name">Menus</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">website.menu</field>
+        <field name="domain">[('website_id','=',active_id)]</field>
+    </record>
+
+    <!-- Website form -->
+    <record id="bz_multi_website_form" model="ir.ui.view">
+        <field name="name">Bz multi website form</field>
+        <field name="model">website</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="%(website_theme_install.theme_install_kanban_action)d" type="action" string="Choose Theme" class="btn-primary"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="%(bz_multi_website.website_pages_action)d" type="action" icon="fa-file-o" class="oe_stat_button">
+                            <field string="Pages" name="page_count" widget="statinfo"/>
+                        </button>
+                        <button name="%(bz_multi_website.website_menus_action)d" type="action" icon="fa-bars" class="oe_stat_button">
+                            <field string="Menus" name="menu_count" widget="statinfo"/>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group name="domain">
+                            <field name="company_id" groups="base.group_multi_company"/>
+                            <field name="domain"/>
+                            <field name="theme_id" readonly="1"/>
+                            <field name="favicon" widget="image"/>
+                            <field name="homepage_id" domain="[('website_ids','in',active_id)]"/>
+                            <field name="google_analytics_key"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page name="social" string="Social Media">
+                            <group>
+                                <field name="social_twitter" widget="url"/>
+                                <field name="social_facebook" widget="url"/>
+                                <field name="social_googleplus" widget="url"/>
+                                <field name="social_linkedin" widget="url"/>
+                                <field name="social_youtube" widget="url"/>
+                                <field name="social_github" widget="url"/>
+                            </group>
+                        </page>
+                        <page name="users" string="Users">
+                            <group>
+                                <field name="auth_signup_uninvited"/>
+                                <field name="auth_signup_reset_password"/>
+                                <field name="user_id" domain="[('active','=',False)]"/>
+                                <field name="partner_id" readonly="1"/>
+                                <field name="template_user_id" domain="[('active','=',False)]"/>
+                            </group>
+                        </page>
+                        <page name="language" string="Language">
+                            <group>
+                                <field name="language_ids" widget="many2many_checkboxes"/>
+                                <field name="default_lang_id" widget="selection"/>
+                            </group>
+                        </page>
+                        <page name="seo" string="SEO">
+                            <group>
+                                <group>
+                                    <field name="canonical_website" domain="[('id','!=',active_id)]"/>
+                                </group>                            
+                            </group>
+                        </page>
+                        <page name="advanced" string="Advanced">
+                            <group>
+                                <group>
+                                    <field name="cdn_activated"/>
+                                    <field name="cdn_url" attrs="{'invisible': [('cdn_activated', '=', False)], 'required': [('cdn_activated', '=', True)]}" placeholder="//mycompany.mycdn.com/"/>
+                                    <field name="cdn_filters" attrs="{'invisible': [('cdn_activated', '=', False)], 'required': [('cdn_activated', '=', True)]}"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

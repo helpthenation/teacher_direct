@@ -1,0 +1,28 @@
+<odoo>
+
+    <!-- Ir module website theme kanban -->
+    <record id="bz_multi_website_theme_kanban" model="ir.ui.view">
+        <field name="name">Bz multi website theme kanban</field>
+        <field name="model">ir.module.module</field>
+        <field name="inherit_id" ref="website_theme_install.theme_view_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='display_name']" position="after">
+                <field name="current_theme"/>
+            </xpath>
+            <xpath expr="//div[@t-name='kanban-box']" position="attributes">
+                <attribute name="t-attf-class">o_theme_preview mb16 mt16 #{record.current_theme.raw_value ? 'o_theme_installed' : ''}</attribute>
+            </xpath>
+            <xpath expr="//i[@states='installed']" position="replace">
+                <i t-if="record.current_theme.raw_value" class="text-center bg-white text-success img-circle fa fa-check-circle"/>
+            </xpath>
+            <xpath expr="//div[@states='uninstalled']" position="replace">
+                <div class="o_button_area">
+                    <button type="object" name="button_choose_theme" class="btn btn-primary">Use this theme</button>
+                    <hr t-if="record.url.value"/>
+                    <a t-if="record.url.value" class="btn btn-default" t-att-href="record.url.value" target="_blank">Live Preview</a>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
