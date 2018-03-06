@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 {
-    'name': "SSI customerPO",
+    'name': "SSI Custom Mods",
 
 
     'author': "Kristenn - SSI",
