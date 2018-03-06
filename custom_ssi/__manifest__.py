@@ -4,8 +4,8 @@
     'name': "SSI customerPO",
 
 
-    'author': "Kristenn",
-    'website': "http://kristennquem.com",
+    'author': "Kristenn - SSI",
+    'website': "http://ssibtr.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
