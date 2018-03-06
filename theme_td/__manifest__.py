@@ -21,4 +21,5 @@
         'static/description/theme_default_screenshot.jpg',
     ],
     'application': False,
+    
 }
