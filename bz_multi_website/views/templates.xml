@@ -1,0 +1,18 @@
+<odoo>
+
+    <!-- Add canonical url to website template -->
+    <template id="bz_multi_website_canonical_url" name="Bz multi website canonical url" inherit_id="website.layout">
+        <xpath expr="//meta" position="after">
+            <t t-if="canonical_url">
+                <link rel="canonical" t-att-href="canonical_url"/>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="bz_multi_website_customize_modal" inherit_id="website_theme_install.customize_modal" priority="1">
+        <xpath expr="//a" position="replace">
+            <a href="/web#action=bz_multi_website.bz_website_menu_action">Change website themes here</a>
+        </xpath>
+    </template>
+
+</odoo>

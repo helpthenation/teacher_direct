@@ -1,0 +1,21 @@
+<odoo>
+
+    <!-- Website form -->
+    <record id="bz_multi_website_sale_stock_website_form" model="ir.ui.view">
+        <field name="name">Bz multi website sale stock website form</field>
+        <field name="model">website</field>
+        <field name="inherit_id" ref="bz_multi_website.bz_multi_website_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook//page[@name='advanced']" position="before">
+                <page name="stock" string="Stock">
+                    <group>
+                        <group>
+                            <field name="warehouse_id"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,33 @@
+<odoo>
+
+    <!-- Website form -->
+    <record id="bz_multi_website_sale_website_form" model="ir.ui.view">
+        <field name="name">Bz multi website sale website form</field>
+        <field name="model">website</field>
+        <field name="inherit_id" ref="bz_multi_website.bz_multi_website_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook//page[@name='advanced']" position="before">
+                <page name="ecommerce" string="eCommerce">
+                    <group>
+                        <group>
+                            <field name="order_mail_template" domain="[('model', '=', 'sale.order')]"/>
+                            <field name="salesperson_id"/>
+                            <field name="salesteam_id"/>
+                        </group>
+                        <group>
+                            <field name="automatic_invoice"/>
+                        </group>
+                        <group>
+                            <field name="cart_recovery_mail_template" domain="[('model', '=', 'sale.order')]"/>
+                            <field name="cart_abandoned_delay"/>
+                        </group>
+                        <group>
+                            <field name="pricelist_ids" string="Pricelists Available" widget="many2many_tags"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

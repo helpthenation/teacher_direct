@@ -1,0 +1,31 @@
+<odoo>
+
+    <!-- Payment acquirer form -->
+    <record id="bz_multi_website_payment_acquirer_form" model="ir.ui.view">
+        <field name="name">Bz multi website payment acquirer form</field>
+        <field name="model">payment.acquirer</field>
+        <field name="inherit_id" ref="payment.acquirer_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='provider']" position="before">
+                <field name="website_ids" widget="many2many_tags"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Payment icon form -->
+    <record id="bz_multi_website_payment_icon_form" model="ir.ui.view">
+        <field name="name">Bz multi website payment icon form</field>
+        <field name="model">payment.icon</field>
+        <field name="inherit_id" ref="payment.payment_icon_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@class='oe_title']" position="after">
+                <group>
+                    <group>
+                        <field name="website_ids" widget="many2many_tags"/>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

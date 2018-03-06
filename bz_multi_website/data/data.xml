@@ -1,0 +1,7 @@
+<odoo>
+
+    <record id="base.module_category_theme" model="ir.module.category">
+        <field name="exclusive" eval="1"/>
+    </record>
+
+</odoo>
