@@ -16,10 +16,11 @@
         'views/assets.xml',
         'views/snippets.xml',
     ],
+    
     'images': [
         'static/description/ssi.png',
         'static/description/theme_default_screenshot.jpg',
     ],
     'application': False,
-    
+
 }
