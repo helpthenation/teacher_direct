@@ -5,7 +5,6 @@ from odoo import models, fields, api
 class ProductProduct(models.Model):
     _inherit = 'product.product'
 
-
     def _compute_quantities_dict(self, lot_id, owner_id, package_id, from_date=False, to_date=False):
         '''
         Get quantity based on current website warehouse
