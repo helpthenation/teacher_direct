@@ -55,13 +55,17 @@
                                   <input name="colorvar" type="radio" data-xmlid="theme_td.option_td"/>
                               </label>
                           </td>
+                      </tr>
+                      <tr>
                           <td>
                               <label class="chd-color-combi">
-																	<p>Marvalus</p>
+																	<p>Mavalus</p>
                                   <img src="/theme_td/static/src/img/theme/variant-ruby.gif" alt="Ruby" class="chd-color-combi-img"/>
                                   <input name="colorvar" type="radio" data-xmlid="theme_td.option_mv"/>
                               </label>
                           </td>
+													<td>
+													</td>
                       </tr>
                   </table>
 
@@ -127,6 +131,12 @@
 <template id="option_td" name="option_td" inherit_id="website.assets_frontend" active="False" customize_show="False">
   <xpath expr="." position="inside">
     <link href="/theme_td/static/src/less/option_td.less" rel="stylesheet" type="text/less"/>
+  </xpath>
+</template>
+
+<template id="option_mv" name="option_mv" inherit_id="website.assets_frontend" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_td/static/src/less/option_mv.less" rel="stylesheet" type="text/less"/>
   </xpath>
 </template>
 
