@@ -55,6 +55,13 @@
                                   <input name="colorvar" type="radio" data-xmlid="theme_td.option_td"/>
                               </label>
                           </td>
+                          <td>
+                              <label class="chd-color-combi">
+																	<p>Marvalus</p>
+                                  <img src="/theme_td/static/src/img/theme/variant-ruby.gif" alt="Ruby" class="chd-color-combi-img"/>
+                                  <input name="colorvar" type="radio" data-xmlid="theme_td.option_mv"/>
+                              </label>
+                          </td>
                       </tr>
                   </table>
 
