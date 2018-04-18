@@ -20,11 +20,15 @@
           <h3>Jamey Name</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        <div class="col-md-4">
+          <img alt="client" class="img-circle" src="/theme_td/static/src/img/placeholder3.jpg"/>
+          <h3>Jamey Name</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
       </div>
     </div>
   </section>
 </template>
-
 
 <template id="ssi_snippets" inherit_id="website.snippets" name="SSI_snippets">
   <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
