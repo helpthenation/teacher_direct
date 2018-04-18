@@ -15,8 +15,9 @@
         'views/layout.xml',
         'views/assets.xml',
         'views/snippets.xml',
+        'views/catalog_snippet.xml',
     ],
-    
+
     'images': [
         'static/description/ssi.png',
         'static/description/theme_default_screenshot.jpg',
