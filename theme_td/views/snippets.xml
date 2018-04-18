@@ -25,6 +25,7 @@
   </section>
 </template>
 
+
 <template id="ssi_snippets" inherit_id="website.snippets" name="SSI_snippets">
   <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
     <t t-snippet="theme_td.snippet_ssi"
