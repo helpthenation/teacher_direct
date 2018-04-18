@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+  <template id="snippet_ssi" name="SSI_catalog">
+    <section class="snippet_ssi">
+      <div class="container text-center">
+        <div style="margin: 20px;">
+          <div class="col-md-2 col-sm-4 col-md-offset-1">
+            <a href="/shop/category/arts-crafts-24">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Arts and Crafts</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/decoratives-25">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image1.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Curriculum</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/decoratives-26">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image2.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Decoratives</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/early-childhood-27">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image3.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Early Childhood</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/featured-items-29">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image4.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Featured Items</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-md-offset-1">
+            <a href="/shop/category/furniture-30">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image5.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Furnitues</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/office-supply-31">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image6.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Office Supply</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/teacher-resources-33">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image7.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Teacher Resources</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/technology-34">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image8.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Technology</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/clearance">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder4.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Clearance</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="ssi_snippets" inherit_id="website.snippets" name="SSI_snippets">
+    <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
+      <t t-snippet="theme_td.snippet_ssi" t-thumbnail="/theme_td/static/src/img/placeholder1.jpg"/>
+    </xpath>
+  </template>
+
+</odoo>
