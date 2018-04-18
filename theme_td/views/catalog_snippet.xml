@@ -4,7 +4,6 @@
   <template id="snippet_ssi" name="SSI_catalog">
     <section class="snippet_ssi">
       <div class="container text-center">
-        <div style="margin: 20px;" class="row">
           <div class="col-md-2 col-md-offset-1">
             <a href="/shop/category/arts-crafts-24">
               <div class="text-center">
@@ -95,7 +94,6 @@
               <p class="text-secondary text-center">Clearance</p>
             </a>
           </div>
-        </div>
       </div>
     </section>
   </template>
