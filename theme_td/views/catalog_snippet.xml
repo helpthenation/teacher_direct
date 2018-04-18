@@ -11,35 +11,74 @@
               <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder1.jpg"/>
             </div>
             <br/>
-            <p class="text-secondary text-center"><a href="/shop/category/arts-crafts-24">Arts Crafts</a></p>
+            <p class="text-secondary text-center"><a href="/shop/category/arts-crafts-24">Arts and Crafts</a></p>
           </div>
           <div class="col-md-2">
             <div class="text-center">
               <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder2.jpg"/>
             </div>
             <br/>
-            <p class="text-secondary text-center"><a href="/shop/category/arts-crafts-24">Boards  Easels</a></p>
+            <p class="text-secondary text-center"><a href="/shop/category/decoratives-26">Decoratives</a></p>
           </div>
           <div class="col-md-2">
             <div class="text-center">
               <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder3.jpg"/>
             </div>
             <br/>
-            <p class="text-secondary text-center"><a href="/shop/category/arts-crafts-24">Arts Crafts</a></p>
+            <p class="text-secondary text-center"><a href="/shop/category/early-childhood-27">Early Childhood</a></p>
+          </div>
+          <div class="col-md-2">
+            <div class="text-center">
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder3.jpg"/>
+            </div>
+            <br/>
+            <p class="text-secondary text-center"><a href="/shop/category/early-childhood-27">Early Childhood</a></p>
           </div>
           <div class="col-md-2">
             <div class="text-center">
               <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder4.jpg"/>
             </div>
             <br/>
-            <p class="text-secondary text-center"><a href="/shop/category/arts-crafts-24">Arts Crafts</a></p>
+            <p class="text-secondary text-center"><a href="/shop/category/featured-items-29">Featured Items</a></p>
           </div>
+          <div class="col-md-1"></div>
+        </div>
+        <div style="margin: 20px;" class="row">
+          <div class="col-md-1"></div>
           <div class="col-md-2">
             <div class="text-center">
               <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholer5.jpg"/>
             </div>
             <br/>
-            <p class="text-secondary text-center"><a href="/shop/category/arts-crafts-24">Arts Crafts</a></p>
+            <p class="text-secondary text-center"><a href="/shop/category/furniture-30">Furnitues</a></p>
+          </div>
+          <div class="col-md-2">
+            <div class="text-center">
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder1.jpg"/>
+            </div>
+            <br/>
+            <p class="text-secondary text-center"><a href="/shop/category/office-supply-31">Office Supply</a></p>
+          </div>
+          <div class="col-md-2">
+            <div class="text-center">
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder2.jpg"/>
+            </div>
+            <br/>
+            <p class="text-secondary text-center"><a href="/shop/category/teacher-resources-33">Teacher Resources</a></p>
+          </div>
+          <div class="col-md-2">
+            <div class="text-center">
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder3.jpg"/>
+            </div>
+            <br/>
+            <p class="text-secondary text-center"><a href="/shop/category/technology-34">Technology</a></p>
+          </div>
+          <div class="col-md-2">
+            <div class="text-center">
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder4.jpg"/>
+            </div>
+            <br/>
+            <p class="text-secondary text-center"><a href="/shop/category/clearance">Clearance</a></p>
           </div>
           <div class="col-md-1"></div>
         </div>
