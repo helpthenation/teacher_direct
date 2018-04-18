@@ -4,7 +4,7 @@
 <template id="snippet_ssi" name="SSI_catalog">
   <section class="snippet_ssi">
     <div class="container text-center">
-      <div class="row">
+      <div class="row col-offset-1 centered">
         <div class="col-md-2">
           <img alt="client" class="img-circle" src="/theme_td/static/src/img/placeholder1.jpg"/>
           <h3>Kyle Name</h3>
