@@ -5,8 +5,7 @@
     <section class="snippet_ssi">
       <div class="container text-center">
         <div style="margin: 20px;" class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-md-offset-1">
             <a href="/shop/category/arts-crafts-24">
               <div class="text-center">
                 <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image.jpg"/>
@@ -51,7 +50,6 @@
               <p class="text-secondary text-center">Featured Items</p>
             </a>
           </div>
-          <div class="col-md-1"></div>
         </div>
         <div style="margin: 20px;" class="row">
           <div class="col-md-1"></div>
