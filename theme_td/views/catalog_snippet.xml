@@ -8,35 +8,35 @@
           <div class="col-md-1"></div>
           <div class="col-md-2">
             <div class="text-center">
-              <img alt="client" style="height:100px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder1.jpg"/>
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder1.jpg"/>
             </div>
             <br/>
             <p class="text-secondary text-center">Box</p>
           </div>
           <div class="col-md-2">
             <div class="text-center">
-              <img alt="client" style="height:100px;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder2.jpg"/>
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder2.jpg"/>
             </div>
             <br/>
             <p class="text-secondary text-center">Boxes</p>
           </div>
           <div class="col-md-2">
             <div class="text-center">
-              <img alt="client" style="height:100px;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder3.jpg"/>
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder3.jpg"/>
             </div>
             <br/>
             <p class="text-secondary text-center">Science</p>
           </div>
           <div class="col-md-2">
             <div class="text-center">
-              <img alt="client" style="height:100px;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder4.jpg"/>
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder4.jpg"/>
             </div>
             <br/>
             <p class="text-secondary text-center">Tapes</p>
           </div>
           <div class="col-md-2">
             <div class="text-center">
-              <img alt="client" style="height:100px;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholer5.jpg"/>
+              <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholer5.jpg"/>
             </div>
             <br/>
             <p class="text-secondary text-center">Calculator</p>
