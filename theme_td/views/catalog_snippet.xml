@@ -7,29 +7,29 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-2">
-            <img alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder1.jpg"/>
+            <img height="50px" alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder1.jpg"/>
             <!-- <h3>Kyle Name</h3> -->
-            <p class="text-secondary">Box</p>
+            <p class="text-secondary text-center">Box</p>
           </div>
           <div class="col-md-2">
-            <img alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder2.jpg"/>
+            <img height="50px" alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder2.jpg"/>
             <!-- <h3>Chad Name</h3> -->
-            <p class="text-secondary">Boxes</p>
+            <p class="text-secondary text-center">Boxes</p>
           </div>
           <div class="col-md-2">
-            <img alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder3.jpg"/>
+            <img height="50px" alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder3.jpg"/>
             <!-- <h3>Jamey Name</h3> -->
-            <p class="text-secondary">Science</p>
+            <p class="text-secondary text-center">Science</p>
           </div>
           <div class="col-md-2">
-            <img alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder4.jpg"/>
+            <img height="50px" alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholder4.jpg"/>
             <!-- <h3>Chad Name</h3> -->
-            <p class="text-secondary">Tapes</p>
+            <p class="text-secondary text-center">Tapes</p>
           </div>
           <div class="col-md-2">
-            <img alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholer5.jpg"/>
+            <img height="50px" alt="client" class="img-circle img-responsive" src="/theme_td/static/src/img/placeholer5.jpg"/>
             <!-- <h3>Jamey Name</h3> -->
-            <p class="text-secondary">Calculator</p>
+            <p class="text-secondary text-center">Calculator</p>
           </div>
           <div class="col-md-1"></div>
         </div>
