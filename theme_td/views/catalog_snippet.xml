@@ -42,15 +42,6 @@
             </a>
           </div>
           <div class="col-md-2 col-sm-4">
-            <a href="/shop/category/featured-items-29">
-              <div class="text-center">
-                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image4.jpg"/>
-              </div>
-              <br/>
-              <p class="text-secondary text-center">Featured Items</p>
-            </a>
-          </div>
-          <div class="col-md-2 col-sm-4 col-md-offset-1">
             <a href="/shop/category/furniture-30">
               <div class="text-center">
                 <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image5.jpg"/>
@@ -59,7 +50,7 @@
               <p class="text-secondary text-center">Furnitues</p>
             </a>
           </div>
-          <div class="col-md-2 col-sm-4">
+          <div class="col-md-2 col-sm-4  col-md-offset-1">
             <a href="/shop/category/office-supply-31">
               <div class="text-center">
                 <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image6.jpg"/>
@@ -84,6 +75,15 @@
               </div>
               <br/>
               <p class="text-secondary text-center">Technology</p>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <a href="/shop/category/featured-items-29">
+              <div class="text-center">
+                <img alt="client" style="height:110px; margin: 0 auto;" class="img-circle img-responsive" src="/theme_td/static/src/img/image4.jpg"/>
+              </div>
+              <br/>
+              <p class="text-secondary text-center">Featured Items</p>
             </a>
           </div>
           <div class="col-md-2 col-sm-4">
